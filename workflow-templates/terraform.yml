@@ -1,0 +1,9 @@
+# Copy this file to .github/workflows/terraform.yml in your project
+# See README.md for setup instructions
+name: Terraform Infrastructure
+on:
+  push:
+    branches: [main]
+    paths: ['infrastructure/**']
+  pull_request:
+    branches: [main]

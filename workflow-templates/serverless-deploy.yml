@@ -1,0 +1,8 @@
+# Copy this file to .github/workflows/serverless-deploy.yml in your project
+# See README.md for setup instructions
+name: Serverless Deploy (Lambda + SAM)
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
